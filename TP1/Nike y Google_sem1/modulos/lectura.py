@@ -15,7 +15,5 @@ def leernike(nomarch):
         nikedia.append(niked)
         nikemes.append(nikem)
         nikeanioyhora.append(nikeayh)
-    return(nikepre)
+    return(nikepre, nikedia, nikemes )
 
-nikep=leernike("nike.csv")
-print("lista de precio:",nikep)
