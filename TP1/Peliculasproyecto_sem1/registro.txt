@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Se eligio opcion 1 a la hora:2022-08-16 20:53:00.229788
 Se eligio opcion 2 a la hora:2022-08-16 20:53:06.125077
 Se eligio opcion 1 a la hora:2022-08-16 20:54:00.383267
+=======
+Se eligio opcion 3 a la hora:2022-08-16 22:36:28.516409
+>>>>>>> b732c02560164508f3f6002d26b8c4fbee33b904
