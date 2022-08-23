@@ -23,3 +23,33 @@ def pregunta_3(fechas_google, precios_google):
     porcentaje = ((precio_ultimo-precio_soporte)/precio_soporte)*100
     
     return porcentaje
+
+def datos_norm(precios):
+    maxi = max(precios)
+    mini = min(precios)
+    
+    x = []
+    y = []
+    
+    for i in range(len(precios)):
+        x.append(i)
+        n = (precios[i]-mini) / (maxi-mini)
+        y.append(n)
+        
+    return x,y
+
+
+def datos_porc(precios):
+
+    x=[]
+    y=[]
+    
+    for i in range(len(precios)):
+        x.append(i)
+        n = (precios[i]*100) / (precios[0]) -100
+        y.append(n)
+    
+    return x,y
+    
+        
+    
